@@ -5,9 +5,14 @@
 
 }
 
+@media screen and (min-width: 601px) {
+    .aboutme h1{
+        font-size: 50px;
+    }
+
 @media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
+    .aboutme h1{ width:100%; }
+    .aboutme p{ width:100%; margin:0; border:none; }
 }
 
 img{
