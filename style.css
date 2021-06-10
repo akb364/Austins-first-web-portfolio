@@ -214,7 +214,9 @@ button{
     animation-delay: 7s;
     width: 50px;
 }
-
+.listofprojects{
+    color: #fbfcfd;
+}
 h1{
     font-size: 70px;
     margin: 10px 0 30px;
