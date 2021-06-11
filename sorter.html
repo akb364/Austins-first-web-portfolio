@@ -1,17 +1,6 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
         "http://www.w3.org/TR/html4/loose.dtd">
-<!--
-   Requires support for the HTML5 "canvas" element.  Should work in new
-   browsers, including Firefox, Chrome, Safari, Opera, and Internet Explorer 9.
-   Uses Javascript and a canvas to demonstate several sorting algoithms.
-   This is a port of a Java program from about 1998, which was itself a
-   post of an older Macintosh Pascal program.  The hard part of the Javascript
-   port was that the original code uses loops in a separate thread, which isn't
-   possible in Javascript (except maybe with "worker" threads, which I haven't
-   tried yet).  The solution that I used here is an "actionQueue" that contains
-   a queue of actions to be performed.
--->
 <html>
 <head>
     <link rel="stylesheet" href="stylesorter.css">
@@ -29,7 +18,7 @@
         var movingBarColor = "#DDD";
         var movingBarOutlineColor = "#888";
         var boxColor = "#D0D";
-        var multiBoxColor = "#0B0";
+        var multiBoxColor = "#000000";
         var maxColor = "#F00";
 
         var barGap = 10;
